@@ -1,0 +1,188 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ************************
+    BENDROSIOS TAISYKLĖS 
+************************* */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-thin {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+/* ************
+    HEADER 
+************* */
+header h3 {
+    text-align: left;
+}
+
+.header-background {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+}
+
+.header-filter {
+    background: rgba(123, 131, 140, 0.7);
+}
+
+.header-content {
+    padding: 50px 10px;
+    text-align: center;
+    color: #D9D4CC;
+    font-family: 'Muli', sans-serif;
+}
+
+.star {
+    font-size: 3em;
+    text-align: center;
+    color: #D9D4CC;
+}
+
+.visit-button {
+    width: 100px;
+    padding: 9px;
+    margin: 0 auto;
+    border: solid;
+    border-bottom: 50px;
+    border-top: 50px;
+    border-left: 20px;
+    border-right: 20px;
+    border-radius: 15px;
+    background: rgba(17, 31, 39, 0.5);
+}
+
+.btn {
+    color: #D9D4CC;
+    font-family: 'Muli', sans-serif;
+}
+
+/* ****************
+        nav
+**************** */
+
+.nav-background {
+    background: #111E26;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    color: #D9D4CC;
+}
+
+nav a {
+        text-decoration: underline;
+
+}
+.nav-text {
+    font-family: 'Muli', sans-serif;
+    color: #D9D4CC;
+}
+
+.globe {
+    font-size: 1.5em
+}
+
+.heart {
+    font-size: 1.5em
+}
+
+.box {
+    font-size: 1.5em
+}
+
+/* *************** 
+        main 
+*************** */
+img {
+    width: 100%;
+}
+
+.m-back {
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.main-background {
+    background: rgba(123, 131, 140, 0.6);
+}
+
+main h3 {
+    text-align: left;
+    padding: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #2c343f;
+}
+
+.main-text {
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.6;
+    color: #516073;
+}
+
+.main-content {
+    text-align: center;
+    padding: 200px;
+    margin: 150px;
+    line-height: 1.6;
+}
+
+.main-text1 {
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.6;
+    color: #353e4b;
+}
+
+/* *************** 
+      footer 
+*************** */
+.footer-back {
+    background: #111E26;
+}
+
+footer {
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+footer li {
+    padding: 20px 50px;
+    margin: 0 auto;
+    display: inline-block;
+    color: #D9D4CC;
+}
+
+.vtmc {
+    text-align: center;
+    color: #D9D4CC;
+}
+
+.footer-text {
+    font-family: 'Muli', sans-serif;
+}
